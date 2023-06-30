@@ -1,15 +1,13 @@
-# Online course starter: R
+# Test course to use timestamped rocker with R 3.5.3 and lme4 1.1-21 (as an alternative to stopped mran)
 
-This is a starter repo based on the
-[course framework](https://github.com/ines/spacy-course) I developed for my
-[spaCy course](https://course.spacy.io). The front-end is powered by
-[Gatsby](http://gatsbyjs.org/) and [Reveal.js](https://revealjs.com) and the
-back-end code execution uses [Binder](https://mybinder.org) 💖
+lme4 source: 
+https://cran.r-project.org/src/contrib/Archive/lme4/
+http://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-21.tar.gz
 
-_This repo could use some better code examples. Also, if you have experience
-with R, feel free to suggest improvements to the
-[test logic and template](#adding-tests). It all works as expected, but there
-might be ways to make it more elegant._
+e.g.:
+path <- "[http://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_0.7.0.tar.gz](http://cran.r-project.org/src/contrib/Archive/lme4/lme4_1.1-21.tar.gz)"
+install.packages(path, repos = NULL, type = "source")
+
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ines/courser-starter-r)
 
