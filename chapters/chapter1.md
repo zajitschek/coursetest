@@ -44,9 +44,7 @@ This is not correct either.
 
 <exercise id="3" title="First steps">
 
-This is a code exercise. The content can be formatted in simple Markdown – so
-you can have **bold text**, `code` or [links](https://spacy.io) or lists, like
-the one for the instructions below.
+FZ test below for lme4
 
 - These are instructions and they can have bullet points.
 - The code block below will look for the files `exc_01_03`, `solution_01_03` and
